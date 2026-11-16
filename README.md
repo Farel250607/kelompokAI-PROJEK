@@ -2,6 +2,12 @@ Buka '/.env/'
 GEMINI_API_KEY=
 abis itu masukkin api key nya
 
+dan untuk menghapus envrioment api terminal
+Remove-Item Env:GEMINI_API_KEY -ErrorAction SilentlyContinue
+Remove-Item Env:GEMINI_MODEL -ErrorAction SilentlyContinue
+
+[Environment]::SetEnvironmentVariable("GEMINI_API_KEY", $null, "User")
+[Environment]::SetEnvironmentVariable("GEMINI_MODEL", $null, "User")
 
 ANGGOTA KELOMPOK
 1. MUHAMMAD FAREL FRESH DANI
