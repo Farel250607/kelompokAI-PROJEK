@@ -2,6 +2,9 @@ Buka '/.env/'
 GEMINI_API_KEY=
 abis itu masukkin api key nya
 
+install dulu
+pip install -r .\requirements.txt
+
 dan untuk menghapus envrioment api terminal
 Remove-Item Env:GEMINI_API_KEY -ErrorAction SilentlyContinue
 Remove-Item Env:GEMINI_MODEL -ErrorAction SilentlyContinue
